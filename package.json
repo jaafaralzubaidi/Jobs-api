@@ -4,9 +4,8 @@
   "description": "this api is about jobs",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "prod": "SET NODE_ENV=production & nodemon app.js"
+    "start": "SET NODE_ENV=production& node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
